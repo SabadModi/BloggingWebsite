@@ -1,0 +1,78 @@
+form button {
+	margin: 5px 0px;
+}
+
+.comments-class textarea {
+	display: block;
+	width: 90%;
+	margin-bottom: 10px;
+}
+/*post*/
+.post {
+	border: 1px solid #ccc;
+	margin-top: 10px;
+}
+/*comments*/
+.comments-section {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+
+.comment {
+	margin-bottom: 10px;
+}
+
+.comment .comment-name {
+	font-weight: bold;
+}
+
+.comment .comment-date {
+	font-style: italic;
+	font-size: 0.8em;
+}
+
+.comment .reply-btn, .edit-btn {
+	font-size: 0.9em;
+	/* margin-top: 20px; */
+	font-weight: bold;
+	color:blue;
+}
+
+.comment .reply-btn:hover, .edit-btn:hover {
+	text-decoration: underline;
+}
+
+.comment-details {
+	width: 91.5%;
+	float: left;
+}
+
+.comment-details p {
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.comment .profile_pic {
+	width: 35px;
+	height: 35px;
+	margin-right: 5px;
+	float: left;
+	border-radius: 50%;
+}
+
+.deleteComment{
+	color: red;
+	font-weight: bold;
+}
+/*replies*/
+.reply {
+	margin-left: 30px;
+}
+
+.reply_form {
+	margin-left: 40px;
+	display: none;
+}
+#comment_form {
+	margin-top: 10px;
+}
